@@ -39,8 +39,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav navbuttons">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                <a v-for="but in buttons" v-bind:key="but" class="nav-link" href="#">{{but}}</a>
+                <a class="nav-link active text-buttons" aria-current="page" href="#">Inicio</a>
+                <a v-for="but in buttons" v-bind:key="but" class="nav-link text-buttons" href="#">{{but}}</a>
             </div>
             </div>
         </div>
@@ -123,5 +123,9 @@ export default {
 
     .navbuttons{
         margin-left: 24%;
+    }
+
+    .text-buttons{
+        font-weight: bold;
     }
 </style>
