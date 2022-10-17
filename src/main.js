@@ -1,19 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import {createRouter , createWebHashHistory} from 'vue-router';
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from "./router";
+import './assets/css/bootstrap.min.css';
+import './assets/js/bootstrap.bundle.min.js';
 
-import Main from './components/Main.vue'
-
-const routes = [
-    {path: '/', component: Main},
-]
-
-const router = createRouter({
-    history: createWebHashHistory(),
-    routes
-})
 
 const app = createApp(App)
 app.use(router)

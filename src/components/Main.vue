@@ -1,3 +1,24 @@
+<script>
+
+import Contactanos from '../components/Contactanos.vue';
+
+export default {
+    data() {
+        return{
+            telefono: '(506)8888-8888',
+            correo: 'info@asoproba.com',
+            lugar: 'Colinas, Buenas Aires,',
+            privPais: 'Pérez Zeledón, Costa Rica.',
+            buttons: ['¿Quiénes somos?','¿Dónde comprar?','Contáctenos']
+        }
+    },
+    components:{
+        Contactanos
+    }
+}
+</script>
+
+
 <template>
     <header class="head">
         <div class="row">
@@ -48,26 +69,6 @@
     <Contactanos/>
     
 </template>
-
-<script>
-
-import Contactanos from '../components/Contactanos.vue';
-
-export default {
-    data() {
-        return{
-            telefono: '(506)8888-8888',
-            correo: 'info@asoproba.com',
-            lugar: 'Colinas, Buenas Aires,',
-            privPais: 'Pérez Zeledón, Costa Rica.',
-            buttons: ['¿Quiénes somos?','¿Dónde comprar?','Contáctenos']
-        }
-    },
-    components:{
-        Contactanos
-    }
-}
-</script>
 
 <style scoped>
     .head{

@@ -1,0 +1,30 @@
+/* ---------- COLORES -----------
+
+    Café: #703F2A
+    Verde oscuro: #67823A
+    Verde claro: #CEDC00
+    Negro: #000000
+    Blanco: #FFFFFF
+    Rojo: #E12526
+
+----------------------------------*/
+
+
+
+
+.navbar-item{
+    white-space: nowrap;
+    margin-right: 10%;
+
+}
+
+.navbar-nav.navbar-center {
+    margin-left: 30%;
+}
+
+@media (max-width: 991px){
+	.navbar-nav.navbar-center {
+        margin: auto;
+    }
+    
+}
