@@ -10,7 +10,9 @@
 ----------------------------------*/
 
 
-
+.bg-navbar{
+    background-color: #CEDC00;
+}
 
 .navbar-item{
     white-space: nowrap;
