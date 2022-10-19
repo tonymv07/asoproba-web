@@ -1,6 +1,10 @@
 <script>
 
-import Contactanos from '../components/Contactanos.vue';
+// import Contactanos from '../pages/Contactanos.vue';
+// import Contactanos from '../pages/Contactanos.vue';
+// import Contactanos from '../pages/Contactanos.vue';
+import Navbar from '../components/Navbar.vue';
+import Carousel from '../components/Carousel.vue';
 
 export default {
     data() {
@@ -13,14 +17,15 @@ export default {
         }
     },
     components:{
-        Contactanos
+        Navbar,
+        Carousel
     }
 }
 </script>
 
 
 <template>
-    <header class="head">
+    <!-- <header class="head">
         <div class="row">
             <div class="col-md-4">
                 <img alt="Vue logo" class="logo" src="https://res.cloudinary.com/dsdsfs/image/upload/v1657057075/Asoproba/frijol_zxslev.png"/>
@@ -67,11 +72,14 @@ export default {
         </div>
     </nav>
     <Contactanos/>
-    
+     -->
+     <Navbar/>
+     <Carousel/>
+
 </template>
 
 <style scoped>
-    .head{
+    /* .head{
         width: 100%;
         background-color: rgb(255, 255, 255);
         height: 130px;
@@ -128,5 +136,5 @@ export default {
 
     .text-buttons{
         font-weight: bold;
-    }
+    } */
 </style>

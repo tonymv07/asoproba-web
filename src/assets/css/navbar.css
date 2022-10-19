@@ -11,17 +11,31 @@
 
 
 .bg-navbar{
-    background-color: #CEDC00;
+    background-color: #000000;
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px #67823A;
+    border-radius: 25px;
+    margin: 1% 2% 0% 2%;
+
+}
+
+.options{
+    color: white;
 }
 
 .navbar-item{
     white-space: nowrap;
     margin-right: 10%;
 
+
 }
 
 .navbar-nav.navbar-center {
     margin-left: 30%;
+}
+
+.logo-navbar{
+    width: 130px;
 }
 
 @media (max-width: 991px){

@@ -1,0 +1,37 @@
+.card-item{
+    background-color: black;
+}
+
+.column-card{
+
+    background-color: rgb(0, 0, 0, 0.7);;
+    word-wrap: break-word;
+    height: auto;
+    
+}
+
+.title-1{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.img-1{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    /* display: block; */
+}
+
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 125px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    /* text-align: center; */
+    /* background-color: rgba(0, 0, 0, 0.5); Añadir para conseguir el fondo con opacidad */
+}

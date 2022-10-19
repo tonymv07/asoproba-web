@@ -1,10 +1,16 @@
 import {createRouter , createWebHashHistory} from 'vue-router';
 
-import Main from '../components/Main.vue';
-import Navbar from '../components/Navbar.vue';
+import Principal from '../pages/Principal.vue';
+import Inicio from '../pages/Inicio.vue';
+import QuienesSomos from '../pages/QuienesSomos.vue';
+import PuntosVenta from '../pages/PuntosVenta.vue';
+import Contactanos from '../pages/Contactanos.vue';
 
 const routes = [
-    {path: '/', component: Navbar},
+    {path: '/', component: Inicio},
+    {path: '/quienes-somos', component: QuienesSomos},
+    {path: '/puntos-de-venta', component: PuntosVenta},
+    {path: '/contactenos', component: Contactanos},
 ]
 
 const router = createRouter({
