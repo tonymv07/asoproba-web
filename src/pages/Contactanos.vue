@@ -28,7 +28,10 @@ export default {
 
 <template>
     <Navbar/>
-    <div class="row form">
+    <img src="https://res.cloudinary.com/dsdsfs/image/upload/v1666211831/Asoproba/wepik-photo-mode-2022919-135421_cwx8im.png" class="d-block w-100" alt="...">
+    <div class="container-fluid background">
+        <div class="row form">
+        <h1 class="header">Contáctenos</h1>
         <div class="col-md-6">
             <div class="form-outline mb-4">
             <input type="text" id="form4Example1" class="form-control" v-model="nombre"/>
@@ -51,6 +54,8 @@ export default {
         </div>
         <button class="btn btn-primary btn-send" v-on:click="clickSend()">Enviar</button>
     </div>
+    </div>
+
 
 </template>
 
