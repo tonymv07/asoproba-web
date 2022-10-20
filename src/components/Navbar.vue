@@ -3,10 +3,10 @@ export default {
     data(){
         return{
             options: [
-                {title: 'Inicio', path:'#'},
-                {title: '¿Quiénes somos?', path:'#'},
-                {title: 'Puntos de venta', path:'#'},
-                {title: 'Contáctenos', path:'#contactenos'}
+                {title: 'Inicio', path:'/'},
+                {title: '¿Quiénes somos?', path:'/quienes-somos'},
+                {title: 'Puntos de venta', path:'/puntos-de-venta'},
+                {title: 'Contáctenos', path:'/contactenos'}
             ]
         }
     }
@@ -24,7 +24,7 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item navbar-item" v-for="it in options" v-bind:key="it">
-                <a class="nav-link options" :href="it.path">{{it.title}}</a>
+                <router-link class="nav-link options" :to="it.path">{{it.title}}</router-link>
                 </li>
             </ul>
             </div>

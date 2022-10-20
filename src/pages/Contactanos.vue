@@ -1,4 +1,33 @@
+<script>
+import Navbar from '../components/Navbar.vue';
+
+
+export default {
+    data() {
+        return{
+            nombre: '',
+            numero: '',
+            correo: '',
+            msg: ''
+        }
+        
+    },
+    methods: {
+        clickSend(){
+            console.log(this.nombre)
+            console.log(this.numero)
+            console.log(this.correo)
+            console.log(this.msg)
+        }
+    },
+    components:{
+        Navbar,
+    }
+}
+</script>
+
 <template>
+    <Navbar/>
     <div class="row form">
         <div class="col-md-6">
             <div class="form-outline mb-4">
@@ -25,27 +54,7 @@
 
 </template>
 
-<script>
-export default {
-    data() {
-        return{
-            nombre: '',
-            numero: '',
-            correo: '',
-            msg: ''
-        }
-        
-    },
-    methods: {
-        clickSend(){
-            console.log(this.nombre)
-            console.log(this.numero)
-            console.log(this.correo)
-            console.log(this.msg)
-        }
-    }
-}
-</script>
+
 
 <style scoped>
     .form{

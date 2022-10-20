@@ -10,6 +10,29 @@
     
 }
 
+.column-card-phone{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 1);;
+    word-wrap: break-word;
+    height: auto;    
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+@media (max-width: 850px){
+	.navbar-nav.navbar-center {
+        margin: auto;
+    }
+    
+}
+
 .title-1{
     margin-top: 15%;
     margin-bottom: 10%;
