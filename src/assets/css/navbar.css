@@ -13,7 +13,7 @@
 .bg-navbar{
     background-color: #000000;
     opacity: 0.9;
-    box-shadow: 0px 0px 20px #67823A;
+    box-shadow: 0px 0px 20px #000000;
     border-radius: 25px;
     margin: 1% 2% 0% 2%;
 
@@ -35,7 +35,7 @@
 }
 
 .logo-navbar{
-    width: 130px;
+    width: 120px;
 }
 
 @media (max-width: 991px){

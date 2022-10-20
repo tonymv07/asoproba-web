@@ -57,19 +57,6 @@ export default {
 
 
 <style scoped>
-    .form{
-        margin-top: 2%;
-        margin-left: 15%;
-        margin-right: 15%;
-        display: flex;
-        justify-content:center;
-    }
-
-    .btn-send{
-        margin-top: 3%;
-        margin-bottom: 15%;
-        width: 10%;
-       
-    }
+@import '../assets/css/contactenos.css';
 
 </style>
